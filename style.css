@@ -321,7 +321,9 @@ footer {
     gap: 0.4em;
     padding: 0 0.4em;
   }
-
+  main {
+  margin: 8em 0;
+}
   .main-container {
     flex-wrap: wrap;
   }
