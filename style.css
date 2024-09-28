@@ -290,28 +290,6 @@ footer {
 
 /* media queries */
 
-@media (max-width: 381px) {
-  nav {
-    justify-content: center;
-    align-items: center;
-  }
-  nav .links ul {
-    flex-wrap: wrap;
-  }
-  .links li a {
-    font-size: 0.9rem;
-  }
-  .varients-items {
-    margin: 0 0.5em 0 0.5em;
-  }
-}
-
-@media (max-width: 683px) {
-  .varients-items .card {
-    width: 100%;
-  }
-}
-
 @media screen and (max-width: 800px) {
   header {
     text-align: center;
@@ -338,5 +316,30 @@ footer {
     flex-wrap: wrap;
     gap: 0.7em;
     padding: 0 3em;
+  }
+}
+
+@media (max-width: 683px) {
+  .varients-items .card {
+    width: 100%;
+  }
+}
+
+@media (max-width: 381px) {
+  nav {
+    justify-content: center;
+    align-items: center;
+  }
+  nav .links ul {
+    flex-wrap: wrap;
+  }
+  .links li a {
+    font-size: 0.9rem;
+  }
+  .varients-items {
+    margin: 0 0.5em 0 0.5em;
+  }
+  .service-info {
+    padding: 0;
   }
 }
